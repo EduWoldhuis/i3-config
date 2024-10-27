@@ -180,10 +180,10 @@ exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/edu/.config/i3/la
 
 exec --no-startup-id alacritty -e bash -c '/bin/bash'
 
-exec --no-startup-id sleep 0.5; alacritty -e bash -c 'neofetch; /bin/bash'
-exec --no-startup-id sleep 1; alacritty -e bash -c 'btm; /bin/bash'
-exec --no-startup-id sleep 1.5; alacritty -e bash -c 'nc -lvnp 4444; /bin/bash'
-exec --no-startup-id sleep 2; alacritty -e bash -c 'cd /home/edu/THM/EXPLOITS/windows/; python3 -m http.server; /bin/bash'
+exec --no-startup-id sleep 0.75; alacritty -e bash -c 'neofetch; /bin/bash'
+exec --no-startup-id sleep 1.5; alacritty -e bash -c 'btm; /bin/bash'
+exec --no-startup-id sleep 2.25; alacritty -e bash -c 'nc -lvnp 4444; /bin/bash'
+exec --no-startup-id sleep 3; alacritty -e bash -c '/bin/bash'
 
 # END CUSTOM
 
